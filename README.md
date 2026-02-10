@@ -32,9 +32,6 @@ It classifies vegetables into **five categories** and displays **confidence scor
 
 > Upload a vegetable image → click **Submit** → get predictions with confidence scores.
 
-*(Add your demo GIF named `demo.gif` in the root folder to display it here.)*
-
----
 
 ## 🧠 Model Overview
 
