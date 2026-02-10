@@ -33,6 +33,8 @@ It classifies vegetables into **five categories** and displays **confidence scor
 > Upload a vegetable image → click **Submit** → get predictions with confidence scores.
 
 
+---
+
 ## 🧠 Model Overview
 
 - Architecture: **ResNet-18**
@@ -43,14 +45,19 @@ It classifies vegetables into **five categories** and displays **confidence scor
 
 Trained weights:
 
+artifacts/vegnet_resnet18.pth
+
+
 ---
 
 ## 📂 Project Structure
 
+
+
 VegNet-CNN/
-├── vegnet_gradio_app.py # Gradio web app
-├── train_pytorch.py # Model training script
-├── predict_cli.py # CLI prediction tool
+├── vegnet_gradio_app.py
+├── train_pytorch.py
+├── predict_cli.py
 ├── requirements.txt
 ├── artifacts/
 │ ├── vegnet_resnet18.pth
@@ -64,13 +71,14 @@ VegNet-CNN/
 │ └── Unripe/
 └── README.md
 
+
 ---
 
 ## ⚙️ Installation
 
-Install dependencies:
-```bash
+bash
 pip install -r requirements.txt
+
 ▶️ Run the Web App
 python vegnet_gradio_app.py
 
@@ -108,25 +116,31 @@ pillow
 
 gradio
 
-## 📜 License
+📜 License
 
-This project is licensed under the **Apache License 2.0**.
+This project is licensed under the Apache License 2.0.
 
 You are free to:
-- Use the software for any purpose
-- Modify and distribute the code
-- Use it in private or commercial projects
+
+Use the software for any purpose
+
+Modify and distribute the code
+
+Use it in private or commercial projects
 
 Provided that you:
-- Include a copy of the license
-- State any significant changes made
 
-See the [LICENSE](LICENSE) file for details.
+Include a copy of the license
 
-🤝 Contributions
+State any significant changes made
 
-Pull requests and suggestions are welcome.
-Feel free to fork the repository and experiment.
+See the LICENSE
+ file for details.
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+Feel free to fork the repository and submit a pull request.
 
 ⭐ Acknowledgements
 
@@ -135,6 +149,5 @@ PyTorch
 Gradio
 
 torchvision
-
 
 
