@@ -50,23 +50,21 @@ artifacts/vegnet_resnet18.pth
 
 ## 📂 Project Structure
 
-
-
-VegNet-CNN/
-├── vegnet_gradio_app.py
-├── train_pytorch.py
-├── predict_cli.py
-├── requirements.txt
+📁 VegNet-CNN
+├── vegnet_gradio_app.py        # Gradio web application
+├── train_pytorch.py            # Model training script
+├── predict_cli.py              # CLI-based prediction tool
+├── requirements.txt            # Project dependencies
 ├── artifacts/
-│ ├── vegnet_resnet18.pth
-│ ├── vegnet_resnet18_last.pth
-│ └── labels.json
+│   ├── vegnet_resnet18.pth     # Trained model weights
+│   ├── vegnet_resnet18_last.pth
+│   └── labels.json             # Class labels
 ├── Data/
-│ ├── Damaged/
-│ ├── Dried/
-│ ├── Old/
-│ ├── Ripe/
-│ └── Unripe/
+│   ├── Damaged/
+│   ├── Dried/
+│   ├── Old/
+│   ├── Ripe/
+│   └── Unripe/
 └── README.md
 
 
