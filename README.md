@@ -30,8 +30,6 @@ The system provides both a **web-based interface** and a **command-line interfac
 
 The Gradio web interface allows users to upload a vegetable image and receive predictions along with confidence scores.
 
-*(A demo GIF can be added as `demo.gif` in the repository root.)*
-
 ---
 
 ## Model Overview
@@ -118,8 +116,11 @@ pip install -r requirements.txt
 ## Running the Web Application
 
 Start the Gradio web interface:
+
 python vegnet_gradio_app.py
+
 Once the server starts, open the following URL in your browser:
+
 http://127.0.0.1:7860
 
 # Upload a vegetable image to view predictions and confidence scores.
