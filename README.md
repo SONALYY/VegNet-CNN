@@ -77,23 +77,32 @@ VegNet-CNN/
 bash
 pip install -r requirements.txt
 
-▶️ Run the Web App
+▶️ Run the Web App 🚀
+
+Start the Gradio-based web application:
+
 python vegnet_gradio_app.py
 
 
-Open in browser:
+Once the server starts, open your browser and visit:
 
 http://127.0.0.1:7860
 
-🧪 CLI Prediction
+
+📷 Upload a vegetable image
+
+📊 View predicted class with confidence percentages
+
+🧪 CLI Prediction 🖥️
+
+Use the command-line tool for quick predictions:
+
 python predict_cli.py \
   --weights artifacts/vegnet_resnet18.pth \
   --labels artifacts/labels.json \
   --image path/to/image.jpg
 
-
-Example output:
-
+📈 Sample Output
 Predicted: Damaged (confidence=0.96)
 
 Damaged : 0.96
@@ -102,48 +111,51 @@ Dried   : 0.02
 Ripe    : 0.00
 Unripe  : 0.00
 
-📦 Requirements
+📦 Requirements 🧰
 
-Python 3.9+
+🐍 Python 3.9 or higher
 
-torch
+🔥 torch
 
-torchvision
+🖼️ torchvision
 
-pillow
+🖌️ pillow
 
-gradio
+🌐 gradio
 
-📜 License
+📜 License ⚖️
 
-This project is licensed under the Apache License 2.0.
+📄 Licensed under the Apache License 2.0
 
-You are free to:
+✅ You are allowed to:
 
 Use the software for any purpose
 
-Modify and distribute the code
+Modify and redistribute the code
 
 Use it in private or commercial projects
 
-Provided that you:
+⚠️ Conditions:
 
 Include a copy of the license
 
-State any significant changes made
+Clearly mention any significant changes made
 
-See the LICENSE
- file for details.
+🔗 See the LICENSE
+ file for complete details.
 
-🤝 Contributing
+🤝 Contributing 💡
 
-Contributions, issues, and feature requests are welcome.
-Feel free to fork the repository and submit a pull request.
+🌱 Contributions, issues, and feature requests are welcome
 
-⭐ Acknowledgements
+🔀 Fork the repository and submit a pull request
 
-PyTorch
+💬 Suggestions and improvements are always appreciated
 
-Gradio
+⭐ Acknowledgements 🙌
 
-torchvision
+🔥 PyTorch – Deep learning framework
+
+🖼️ torchvision – Image models & transformations
+
+🌐 Gradio – Interactive ML web interface
