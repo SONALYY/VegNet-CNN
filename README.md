@@ -32,7 +32,6 @@ It classifies vegetables into **five categories** and displays **confidence scor
 
 > Upload a vegetable image → click **Submit** → get predictions with confidence scores.
 
-
 ---
 
 ## 🧠 Model Overview
@@ -44,7 +43,6 @@ It classifies vegetables into **five categories** and displays **confidence scor
 - Number of classes: **5**
 
 Trained weights:
-
 artifacts/vegnet_resnet18.pth
 
 
@@ -52,21 +50,23 @@ artifacts/vegnet_resnet18.pth
 
 ## 📂 Project Structure
 
+
+
 VegNet-CNN/
 ├── vegnet_gradio_app.py
 ├── train_pytorch.py
 ├── predict_cli.py
 ├── requirements.txt
 ├── artifacts/
-│   ├── vegnet_resnet18.pth
-│   ├── vegnet_resnet18_last.pth
-│   └── labels.json
+│ ├── vegnet_resnet18.pth
+│ ├── vegnet_resnet18_last.pth
+│ └── labels.json
 ├── Data/
-│   ├── Damaged/
-│   ├── Dried/
-│   ├── Old/
-│   ├── Ripe/
-│   └── Unripe/
+│ ├── Damaged/
+│ ├── Dried/
+│ ├── Old/
+│ ├── Ripe/
+│ └── Unripe/
 └── README.md
 
 
@@ -147,5 +147,3 @@ PyTorch
 Gradio
 
 torchvision
-
-
