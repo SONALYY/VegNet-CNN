@@ -1,0 +1,2 @@
+Upload Veg Image,Predictions,timestamp
+.gradio\flagged\Upload Veg Image\e4405cb1c523083873ae\IMG_20220615_092952.jpg,"{""label"": ""Dried"", ""confidences"": [{""label"": ""Dried"", ""confidence"": 0.9996082186698914}, {""label"": ""Damaged"", ""confidence"": 0.0003641840012278408}, {""label"": ""Old"", ""confidence"": 2.4640734409331344e-05}]}",2025-08-12 11:49:05.948230
