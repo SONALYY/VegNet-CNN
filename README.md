@@ -47,9 +47,7 @@ artifacts/vegnet_resnet18.pth
 
 
 ---
-
-## 📂 Project Structure
-
+ 
 📁 VegNet-CNN
 ├── vegnet_gradio_app.py        # Gradio web application
 ├── train_pytorch.py            # Model training script
@@ -75,6 +73,8 @@ artifacts/vegnet_resnet18.pth
 bash
 pip install -r requirements.txt
 
+---
+
 ▶️ Run the Web App 🚀
 
 Start the Gradio-based web application:
@@ -90,6 +90,8 @@ http://127.0.0.1:7860
 📷 Upload a vegetable image
 
 📊 View predicted class with confidence percentages
+
+---
 
 🧪 CLI Prediction 🖥️
 
@@ -109,6 +111,8 @@ Dried   : 0.02
 Ripe    : 0.00
 Unripe  : 0.00
 
+---
+
 📦 Requirements 🧰
 
 🐍 Python 3.9 or higher
@@ -120,6 +124,8 @@ Unripe  : 0.00
 🖌️ pillow
 
 🌐 gradio
+
+---
 
 📜 License ⚖️
 
@@ -142,6 +148,8 @@ Clearly mention any significant changes made
 🔗 See the LICENSE
  file for complete details.
 
+ ---
+
 🤝 Contributing 💡
 
 🌱 Contributions, issues, and feature requests are welcome
@@ -150,6 +158,8 @@ Clearly mention any significant changes made
 
 💬 Suggestions and improvements are always appreciated
 
+---
+
 ⭐ Acknowledgements 🙌
 
 🔥 PyTorch – Deep learning framework
@@ -157,3 +167,5 @@ Clearly mention any significant changes made
 🖼️ torchvision – Image models & transformations
 
 🌐 Gradio – Interactive ML web interface
+
+
